@@ -21,9 +21,9 @@ for(let i=0; i<points.length; i++)
       Odd.push(points[i])
      }
      }
-     console.log(Even)
+     console.log("Even numbers are "+Even)
      console.log(Odd)
-     document.write(points + "<br>") 
-     document.write(Even + "<br>")
-     document.write(Odd)
+     document.write(" Points=" + points + "<br>") 
+     document.write("Even numbers = "+Even + "<br>")
+     document.write("Odd numbers =" + Odd)
      
